@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+/* 경계선 */
+.popular-wrap {
+  border: 1px solid black;
+}
+
+/* 경계선 */
+#main {
+  width: 1200px;
+}
+#home-itme1 {
+  width: 100%;
+}
+
+.home-item1__wrap {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.popular-wrap {
+  text-align: center;
+}
+
+.popular-wrap__title-wrap {
+}
