@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      .custom-list {
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+        display: inline-block;
+      }
+      .custom-list > li {
+        background-color: black;
+        color: white;
+        padding: 15px;
+        cursor: pointer;
+      }
+      .custom-list > li:hover {
+        background-color: gray;
+        color: black;
+      }
+
+      .in-list {
+        list-style: none;
+        color: red;
+        position: absolute;
+        margin-left: 135px;
+        margin-top: -30px;
+        /* display: none; */
+      }
+    </style>
+  </head>
+  <body>
+    <ul class="custom-list">
+      <li>
+        aaa
+        <ul class="in-list">
+          <li>bbb</li>
+          <li>ccc</li>
+          <li>ddd</li>
+          <li>eee</li>
+          <li>fff</li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
